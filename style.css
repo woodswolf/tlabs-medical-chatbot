@@ -1,0 +1,80 @@
+body {
+	background-color: #999;
+	color: #000;
+	margin: 0vw;
+}
+
+#main {
+	background-color: #ccc;
+	width: 70vw;
+	height: 100vh;
+	margin-left: 15vw;
+}
+
+#chat-container {
+	background-color: #FFF;
+	height: 76.444444vh;
+	margin-left: 2.5vw;
+	margin-right: 2.5vw;
+	padding: 1.777777vh 1vw;
+	overflow: auto;
+}
+
+#chatbox {
+	background-color: #00F;
+	height: 20vh;
+	padding-left: 2.5vw;
+	padding-right: 2.5vw;
+}
+
+table {
+	width: 70vw;
+	height: 10vh;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+td {
+	padding: 0 0 0 2.5vw;
+}
+
+textarea {
+	width: 55vw;
+	height: 10vh;
+	resize: none;
+	display: inline-block;
+	/*border: 0;
+	padding: 0;*/
+}
+
+button {
+	position: relative;
+	left: -6px;
+	width: 7.5vw;
+	margin-right: 2.5vw;
+	height: 10vh;
+	display: inline-block;
+}
+
+p {
+	color: #FFF;
+	max-width: 50vw;
+	padding: 1vh 1vw;
+	margin: .5vh 0;
+	clear: both;
+	border-radius: 1vw;
+}
+
+.bot-chat-bubble {
+	float: left;
+	background-color: #00F;
+}
+
+.human-chat-bubble {
+	float: right;
+	background-color: #0F0;
+}
+
+.pad {
+	height: 2.5vh;
+}

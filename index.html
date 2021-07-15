@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TLabs Medical Chatbot</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="tlabs-med-chatbot.js"></script>
+<script type="text/javascript" src="tlabs-med-chatbot-functions.js"></script>
+<script type="text/javascript" src="tlabs-med-chatbot-amazon.js"></script>
+<script type="text/javascript" src="tlabs-med-chatbot-synonyms.json"></script>
+<script src="aws-sdk-2.519.0.min.js"></script>
+</head>
+
+<body>
+<div id="main">
+	<div class="pad"></div>
+	
+	<div id="chat-container">
+		<!-- chat text inserted here by script -->
+	</div>
+	
+	<div class="pad"></div>
+	
+	<form id="chat-box">
+		<table>
+			<tr>
+				<td class="left">
+					<textarea id="text-box" name="text"></textarea>
+				</td>
+				<td class="right">
+					<button type="submit" name="submit">Submit</button>
+				</td>
+			</tr>
+		</table>
+	</form>
+	
+</div>
+
+</body>
+</html>

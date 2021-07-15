@@ -1,0 +1,6 @@
+var synonyms = {
+"temp": ["fever", "hyperthermia", "hypothermia", "hyperpyrexia", "temperature"],
+"cough": ["cough", "hacking", "wheezing"],
+"dizzy": ["dizzy", "dizziness", "lightheaded", "faint", "vertigo"],
+"rash": ["rash", "hives", "itch"]
+}
